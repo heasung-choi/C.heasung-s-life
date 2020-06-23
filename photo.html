@@ -13,27 +13,60 @@
 </script>
 
   </P>
+  <style>
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 50px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      padding: 0px;
+      margin: 0;
+    }
+    body {
+      margin: 0
+    }
+    ol {
+      border-right: 1px solid gray;
+      width: 100px;
+      margin: 0;
+      padding: 5;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+  </Style>
   <title>C.Heasung's Life - Photo</title>
   <meta charset="utf-8">
 </head>
 
 <body>
   <h1><a href="index.html">C.Heasung's Life</a></h1>
-  <ol>
-    <li><a href="history.html">History</a></li>
-    <li><a href="photo.html">Photo</a></li>
-    <li><a href="music.html">Music</a></li>
-    <li><a href="book.html">Book</a></li>
-    <li><a href="stuff.html">Stuff</a></li>
-  </ol>
+  <div id=grid>
+    <ol>
+      <li><a href="history.html">History</a></li>
+      <li><a href="photo.html" style="color:red">Photo</a></li>
+      <li><a href="music.html">Music</a></li>
+      <li><a href="book.html">Book</a></li>
+      <li><a href="stuff.html">Stuff</a></li>
+    </ol>
+    <div>
+      <h2>Memories of Life</h2>
+      <br>무료사진을 감상하세요 <a href="https://unsplash.com/" target="_blank" title="unsplash.com" style="color:blue">클릭!</a>
+      <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UPd3sLL0Tdw"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </p>
 
-  <h2>Memories of Life</h2>
-  <br>무료사진을 감상하세요 <a href="https://unsplash.com/" target="_blank" title="unsplash.com">클릭!</a>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/UPd3sLL0Tdw"
-    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </p>
-
-  <br><img src="photo.jpg" width="100%">
+      <br><img src="photo.jpg" width="100%">
+    </div>
+  </div>
 </body>
 </html>
